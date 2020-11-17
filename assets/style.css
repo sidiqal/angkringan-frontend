@@ -9,6 +9,11 @@
     }
 }
 
+#navbar {
+  background-color: blue; /* edit warna navbar disini */
+}
+
+
 .login__link {
     color: rgba(0, 0, 0, .5);
 }
