@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 576px) {
+    .navbar {
+        display: block !important;
+    }
+}
+
+.login__link {
+    color: rgba(0, 0, 0, .5);
+}
+
+#banner {
+    padding: 150px 0 150px 0;
+    background-color: #63B8FF;
+}
+
+.hero {
+    width: 400px;
+    float: right;
+    margin-right: 70px;
+}
+
+.hero__title {
+    font-size: 3rem;
+    margin-top: 140px;
+}
+
+#feature {
+    padding: 130px 0 130px 0;
+}
+
+.feature__title {
+    margin-bottom: 70px;
+}
+
+.feature__subtitle {
+    font-size: 1.5rem;
+}
+
+#produk {
+    background-color: #f3f3f3;
+    padding: 70px 0 70px 0;
+}
+
+.produk__title {
+    margin-bottom: 40px;
+}
+
+#footer {
+    padding: 30px 0 30px 0;
+}
+
+.footer__subtitle {
+    margin-bottom: 2px;
+}
