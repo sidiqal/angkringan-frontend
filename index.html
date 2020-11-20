@@ -10,27 +10,21 @@
 </head>
 
 <body>
-    <section id="navbar">
-        <nav class="navbar navbar-expand-sm navbar-light"> <!--class bg-light dihapus-->
+    <section id="nav">
+        <nav class="navbar navbar-expand-sm navbar-light navbar-custom">
+            <!-- <div class="container"> -->
+            <a href="#" class="navbar-brand">Sidiq</a>
             <ul class="navbar-nav mr-auto">
-                <a href="#" class="navbar-brand">Angkringan</a>
-                <li>
-                    <a href="#" class="nav-link">Home</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link">Feature</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link">Produk</a>
-                </li>
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">Gallery</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
             </ul>
             <ul class="navbar-nav">
                 <li>
-                    <a href="" class="login__link">
-                      Login
-                    </a>
+                    <a href="#" class="nav-link">Login</a>
                 </li>
             </ul>
+            <!-- </div> -->
         </nav>
     </section>
 
@@ -73,42 +67,211 @@
 
     <section id="produk">
         <div class="container">
-            <h1 class="produk__title text-center">Produk Kami</h1>
-            <div class="produk__gambar text-center">
+            <h1 class="produk__title ">Produk Kami</h1>
+            <div class="produk__gambar ">
                 <img src="assets/img/nasi-bandeng.jpg" alt="">
             </div>
         </div>
     </section>
 
     <section id="table">
-      <div class="container">
-        <table class="table">
-            <tr>
-              <th>No</th>
-              <th>First</th>
-              <th>Last</th>
-              <th>Handle</th>
-            </tr>
-            <tr>
-              <th>1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th>2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th>3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
-            </tr>
-        </table>
-      </div>
+        <div class="container">
+            <table class="table table-hover table-bordered">
+                <tr>
+                    <th>No</th>
+                    <th>First</th>
+                    <th>Last</th>
+                    <th>Handle</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="card">
+        <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Title bang</h2>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam consequuntur reiciendis iste
+                            optio repudiandae non, modi accusantium minus voluptate soluta.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Title bang</h2>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam consequuntur reiciendis iste
+                            optio repudiandae non, modi accusantium minus voluptate soluta.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Title bang</h2>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam consequuntur reiciendis iste
+                            optio repudiandae non, modi accusantium minus voluptate soluta.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Title bang</h2>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam consequuntur reiciendis iste
+                            optio repudiandae non, modi accusantium minus voluptate soluta.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Username :</label>
+                            <input type="text" class="form-control" name="username" id="username">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password :</label>
+                            <input type="password" class="form-control" name="password" id="password">
+                        </div>
+                        <button type="submit" name="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <table class="table table-hover">
+                        <tr>
+                            <th>No</th>
+                            <th>Nama</th>
+                            <th>Umur</th>
+                            <th>Kelas</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Sidiq Alfiansyah</td>
+                            <td>32</td>
+                            <td>XI TKJ 1</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Sidiq Alfiansyah</td>
+                            <td>32</td>
+                            <td>XI TKJ 1</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dicoba">
+        <div class="container">
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h2>Hai</h2>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptate adipisci
+                                impedit? Accusantium necessitatibus dolore veniam saepe delectus quasi temporibus.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h2>Hai</h2>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptate adipisci
+                                impedit? Accusantium necessitatibus dolore veniam saepe delectus quasi temporibus.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h2>Hai</h2>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptate adipisci
+                                impedit? Accusantium necessitatibus dolore veniam saepe delectus quasi temporibus.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h2>Hai</h2>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptate adipisci
+                                impedit? Accusantium necessitatibus dolore veniam saepe delectus quasi temporibus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 bg-custom">
+                    <img src="assets/img/nasi-bandeng.jpg" class="img-thumbnail">
+                    <p> elit. Animi, illum.</p>
+                </div>
+                <div class="col-md-2 bg-custom">
+                    <img src="assets/img/nasi-bandeng.jpg" class="img-thumbnail">
+                    <p> elit. Animi, illum.</p>
+                </div>
+                <div class="col-md-2 bg-custom">
+                    <img src="assets/img/nasi-bandeng.jpg" class="img-thumbnail">
+                    <p> elit. Animi, illum.</p>
+                </div>
+                <div class="col-md-2 bg-custom">
+                    <img src="assets/img/nasi-bandeng.jpg" class="img-thumbnail">
+                    <p> elit. Animi, illum.</p>
+                </div>
+                <div class="col-md-2 bg-custom">
+                    <img src="assets/img/nasi-bandeng.jpg" class="img-thumbnail">
+                    <p> elit. Animi, illum.</p>
+                </div>
+                <div class="col-md-2 bg-custom">
+                    <img src="assets/img/nasi-bandeng.jpg" class="img-thumbnail">
+                    <p> elit. Animi, illum.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="footer">
